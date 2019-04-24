@@ -1,0 +1,12 @@
+.uk-navbar-container {
+    background-color: #000;
+    display: flex;
+    padding: 15px;
+}
+.uk-navbar-left {
+}
+
+#main-container {
+    height: 100vh;
+}
+
