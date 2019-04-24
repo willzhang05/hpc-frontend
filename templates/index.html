@@ -9,16 +9,39 @@
 <body>
     <div id="main-container" class="uk-container-expand uk-background-cover">
     
-        <div class="uk-navbar-container uk-background-default" uk-navbar>
+        <!--<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
             <div class="uk-navbar-left">
-                <a href="#" class="uk-navbar-item uk-logo">
-                    <img src="{% static 'img/logo.png' %}"/>
-                </a>
-                <ul class="uk-navbar-nav">
-                    <div class="uk-navbar-item"></div>
-                </ul>
+				<ul class="uk-navbar-nav">
+					<li>
+						<a class="uk-navbar-item uk-logo" href="#">
+							<img src="{% static 'img/logo.png' %}"/>
+						</a>
+					</li>
+					<li>
+						<a href="/login">
+							Login
+						</a>
+					</li>
+				</ul>
+			</div>
+
+        </nav>-->
+		<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+			<div class="uk-navbar-left">
+				<a id="logo" class="uk-navbar-item uk-logo" href="#">
+					<img src="{% static 'img/logo.png' %}"/>
+				</a>
+			</div>
+            <div class="uk-navbar-right">
+				<ul class="uk-navbar-nav">
+					<li>
+						<a href="/login">
+							Login
+						</a>
+					</li>
+				</ul>
             </div>
-        </div>
+		</nav>
         
     </div>
 </body>
